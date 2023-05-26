@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "URL Shortener",
+  "version": "1.0",
+  "description": "Shortens URLs with Bit.ly",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "clipboardWrite",
+    "tabs",
+    "https://api-ssl.bitly.com/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Shortener</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+      background-image: url(background.gif);
+    }
+
+    #url-input {
+      width: 300px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    input {
+        padding-left: 8px;
+    }
+
+    #shorten-button {
+      padding: 5px 10px;
+      background-color:#526953;
+      border-radius: 10px;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    #short-url {
+      margin-top: 6px;
+      font-weight: bold;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    h1 {
+        color: #cad8ca;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    
+
+
+  </style>
+</head>
+<body>
+  <h1>URL Shortener</h1>
+  <input type="text" id="url-input" placeholder="Enter URL">
+  <button id="shorten-button">Shorten</button>
+  <p id="short-url"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
